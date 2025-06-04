@@ -1,25 +1,31 @@
-import Contact2 from "@/components/contact/Contact2";
-import Footer13 from "@/components/footers/Footer13";
-import Footer15 from "@/components/footers/Footer15";
-import Footer2 from "@/components/footers/Footer2";
-import Header1 from "@/components/headers/Header1";
-import Header17 from "@/components/headers/Header17";
+import ContactSection from "@/components/contact/ContactSection";
+import Footer25 from "@/components/footers/Footer25";
+import Header19 from "@/components/headers/Header19";
+
 import React from "react";
 
 export const metadata = {
-  title: "Contact 2 || Industry - Factory & Industrial React Nextjs Template",
+  title: "Home 20 || Industry - Factory & Industrial React Nextjs Template",
   description: "Industry - Factory & Industrial React Nextjs Template",
 };
 export default function page() {
   return (
     <>
       <div className="page-wraper  ">
-        <Header17 />
+        <Header19 />
         <div className="page-content bg-white">
-          <Contact2 />
+
+            <ContactSection/>
+
+            
+         
+          <div className="dlab-divider bg-gray-dark tb10 mt-5" />
+
         </div>
-        {/* <Footer2 contactSection="false"/> */}
-        <Footer13 />
+        <div className="footertop">
+          <Footer25 />
+        </div>
+        
       </div>
     </>
   );

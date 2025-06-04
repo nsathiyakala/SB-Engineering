@@ -354,7 +354,7 @@ export const HomeLink = {
 export const Companylink = [
   // { href: "/company", label: "Overview" },
   { href: "/about-us", label: "About Us" },
-  { href: "/why-sb-engineers", label: "Why zingstudio" },
+  { href: "/why-sb-engineers", label: "Why SB Engineers" },
   { href: "/infrastructure", label: "Infrastructure" },
   { href: "/careers", label: "Careers" },
  
