@@ -71,7 +71,7 @@ export default function Header22() {
             {/* website logo */}
             <div className="logo-header mostion logo-dark">
               <Link href={`/`}>
-                <img alt="" width="258" height="75" src="/images/logo.png" />
+                <img alt="" width="258" height="75" src="/images/logo/header.png" />
               </Link>
             </div>
             {/* nav toggle button */}
@@ -213,7 +213,7 @@ export default function Header22() {
             >
               <div className="logo-header d-md-block d-lg-none">
                 <Link href={`/`}>
-                  <img alt="" width="258" height="75" src="/images/logo.png" />
+                  <img alt="" width="258" height="75" src="/images/logo/header.png" />
                 </Link>
               </div>
               <ul className="nav navbar-nav">

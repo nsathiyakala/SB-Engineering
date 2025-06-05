@@ -7,7 +7,7 @@ export default function Footer25() {
       <div className="container p-0">
         <div className="row g-0">
           {/* Left Yellow Section */}
-          <div className="col-lg-4 footer-yellow d-flex flex-column justify-content-center align-items-start p-5 footer1">
+          <div className="col-lg-3 footer-yellow d-flex flex-column justify-content-center align-items-start p-5 footer1">
             <img src="/images/header-logo.png" alt="SB Engineers Logo" className="footer-logo mb-3" />
             <h4 className="footer-heading mb-3">Get Started With Us</h4>
             <p className="footer-text mb-4">
@@ -17,10 +17,10 @@ export default function Footer25() {
           </div>
 
           {/* Right Black Section */}
-          <div className="col-lg-8 footer-black p-5">
+          <div className="col-lg-9 footer-black p-5 ">
             <div className="row">
               {/* About */}
-              <div className="col-md-4 mb-4">
+              <div className="col-md-5 mb-4 pt-5 pe-5">
                 <h5 className="footer-subheading">SB Engineers</h5>
                 <p className="footer-info">
                   SB Engineers is a premier engineering design firm dedicated to delivering comprehensive solutions for a diverse range of structural projects.
@@ -28,7 +28,7 @@ export default function Footer25() {
               </div>
 
               {/* Links */}
-              <div className="col-md-4 mb-4">
+              <div className="col-md-3 mb-4 pt-5">
                 <h5 className="footer-subheading">Quick Links</h5>
                 <ul className="footer-links list-unstyled">
                   <li>Services</li>
@@ -41,7 +41,7 @@ export default function Footer25() {
               </div>
 
               {/* Contact */}
-              <div className="col-md-4 mb-4">
+              <div className="col-md-4 mb-4 pt-5">
                 <h5 className="footer-subheading">Quick Contact</h5>
                 <p className="footer-info">
                   4th West Cross Road, Gandhi Nagar,<br />
@@ -58,13 +58,19 @@ export default function Footer25() {
             </div>
           </div>
         </div>
+               
 
         {/* Bottom Strip */}
+        
        
       </div>
-       <div className="footer-bottom text-center py-2">
+      <div className="footer-bottom  py-4 ">
+        <div className="container">
           Copyright 2025 © SB Engineers. Concept by repute.
         </div>
+          
+        </div>
+
     </footer>
   );
 }

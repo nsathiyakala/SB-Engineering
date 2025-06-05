@@ -107,6 +107,21 @@ import { ArrowRight } from "lucide-react";
                     ))}
                   </Swiper>
                 </div>
+
+                <div className="text-center pt-4">
+                   <Link
+                href={`/portfolio-grid-2`}
+                className="btn__secondary_in  text-decoration-none"
+                // style={{zIndex:"1000"}}
+              >
+                 <span className="icon-div-pri">
+                                    <ArrowRight className="icon-sm-new "/>
+                                </span>
+                View More 
+              </Link>
+                </div>
+
+                
               </div>
             </div>
           </div>

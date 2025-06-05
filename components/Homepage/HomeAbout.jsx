@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { ArrowRight } from "lucide-react";
 export default function HomeAbout() {
   return (
     <div className="section-full content-inner const-about home-about">
@@ -10,13 +11,23 @@ export default function HomeAbout() {
             className="col-lg-6 col-md-6 col-sm-12 col-12 "
            
           >
-            <div className="radius-sm m-b30 ">
+            <div className="radius-sm m-b30 home-about-img" style={{borderRadius:"3px"}}>
               <Image
                 alt=""
-                src="/images/about/pic11.jpg"
+                src="/images/home/about/img.png"
                 width="600"
                 height="722"
+                style={{borderRadius:"3px"}}
               />
+              <div className="home-about-cont">
+                <h4 className="home-about__subtitle ">40</h4>
+                <h5 className="home-about__title ">Years Of Experience!</h5>
+                <a href="#" >
+                  <span className="icon-div">
+                                    <ArrowRight className="icon-sm-new "/>
+                                </span>
+                </a>
+              </div>
             </div>
           </div>
           <div
@@ -91,6 +102,9 @@ export default function HomeAbout() {
                 className="btn__secondary_in  text-decoration-none"
                 // style={{zIndex:"1000"}}
               >
+                 <span className="icon-div-pri">
+                                    <ArrowRight className="icon-sm-new "/>
+                                </span>
                 More about Us
               </Link>
               </div>

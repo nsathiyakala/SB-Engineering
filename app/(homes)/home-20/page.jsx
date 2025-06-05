@@ -3,6 +3,7 @@ import Footer25 from "@/components/footers/Footer25";
 import Header19 from "@/components/headers/Header19";
 import HomeAbout from "@/components/Homepage/HomeAbout";
 import HomeBlog from "@/components/Homepage/HomeBlog";
+import HomeBuildSec from "@/components/Homepage/HomeBuildSec";
 import HomeClients from "@/components/Homepage/HomeClients";
 import HomeProjects from "@/components/Homepage/HomeProjects";
 import Service from "@/components/homes/home-2/Service";
@@ -22,6 +23,8 @@ export default function page() {
           <Hero />
 
           <HomeAbout />
+
+          <HomeBuildSec/>
 
           <HomeBlog/>
 

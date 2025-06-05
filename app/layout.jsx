@@ -127,7 +127,8 @@ export default function RootLayout({ children }) {
         <Context>
           {showChild ? (
             <>
-              <ThemeChanger /> {children} <ScrollTop />
+              <ThemeChanger /> {children} 
+              {/* <ScrollTop /> */}
             </>
           ) : (
             ""

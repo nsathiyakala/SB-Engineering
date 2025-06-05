@@ -9,7 +9,7 @@
   padding-bottom: 10px;
 }
 .event-body .text-yellow {
-  color: #fdb900;
+  color: #fdd104;
 }
 .event-body .text-black {
   color: #000;
@@ -107,7 +107,7 @@
   border-radius: 50%;
   border-width: 22px;
   border-style: solid;
-  border-color: #fdb900 transparent #fdb900 #fdb900;
+  border-color: #fdd104 transparent #fdd104 #fdd104;
   transform: rotate(45deg);
 }
 
@@ -147,7 +147,7 @@
   position: absolute;
   right: 0;
   top: -145px;
-  background: #fdb900;
+  background: #fdd104;
   border-radius: 110px 0 0 0px;
 }
 .event-bnr-media > span:before {
@@ -346,7 +346,7 @@
   position: absolute;
   right: 15px;
   top: -140px;
-  background: #fdb900;
+  background: #fdd104;
   border-radius: 110px 0 0 0px;
 }
 .ev-aboutus-media .ev-about1 {
@@ -388,7 +388,7 @@
   width: auto;
   height: calc(100% - 200px);
   top: 100px;
-  background: #fdb900;
+  background: #fdd104;
   z-index: -1;
   margin-left: -80px;
   margin-right: -80px;
@@ -503,7 +503,7 @@
 /* Footer */
 .event-page .ev-subscribe {
   padding: 80px;
-  background: #fdb900;
+  background: #fdd104;
   margin-left: -80px;
   margin-right: -80px;
   border-radius: 18px;

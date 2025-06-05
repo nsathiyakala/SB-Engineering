@@ -8205,7 +8205,7 @@ button.scroltop {
 
 /* homepage-18 */
 .dz-header {
-  padding: 0px 160px;
+  /* padding: 0px 160px; */
 }
 
 .dz-header .dz-bannerbtn {
@@ -8374,9 +8374,9 @@ button.scroltop {
 /* responsive */
 
 @media only screen and (max-width: 1920px) {
-  .dz-header {
+  /* .dz-header {
     padding: 0px 100px;
-  }
+  } */
 
   .dz-oil-industry-zone {
     padding: 70px 100px;
@@ -8581,7 +8581,7 @@ button.scroltop {
 }
 
 .dz-header {
-  padding: 0px 100px;
+  /* padding: 0px 100px; */
 }
 
 .dz-ship-industry-zone .dzpattern {
@@ -8861,7 +8861,7 @@ button.scroltop {
 
 .dz-industry2-zone .silder-content .dz-btns a {
   /* font-size: 16px; */
-  padding: 12px 31px;
+    padding: 18px 27px;
   /* font-weight: 400; */
   /* border: 1px solid white; */
 }
@@ -8876,14 +8876,14 @@ button.scroltop {
   opacity: 1;
   transition: 0.5s;
   display: inline-block;
-  height: 9px;
-  width: 9px;
-  border-radius: 50%;
+  height: 4px;
+    width: 25px;
+    border-radius: 20px;
   margin: 0px 4px;
 }
 
 .dz-industry2-zone .style-1 .swiper-pagination-bullet-active {
-  background-color: var(--color-primary);
+  /* background-color: var(--color-primary); */
   width: 25px;
   border-radius: 10px;
   display: inline-block;
@@ -8906,7 +8906,7 @@ button.scroltop {
   }
 
   .dz-industry2-zone .silder-content .dz-btns a {
-    padding: 10px 25px;
+      padding: 18px 27px;
   }
 
   .dz-industry2-zone .swiper-slide img {

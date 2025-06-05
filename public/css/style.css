@@ -136,7 +136,7 @@ body {
   font-weight: 100;
   font-style: normal;
   font-size: 16px;
-  color: #51668a;
+  color: #000;
   padding: 0;
   margin: 0;
   overflow-x: hidden;
@@ -1601,7 +1601,7 @@ dl dd {
 }
 
 .text-yellow-light {
-  color: #fdb900;
+  color: #fdd104;
 }
 
 .text-pink {
@@ -13548,7 +13548,8 @@ footer .widget_services ul li {
   padding: 25px 0;
   color: black;
   font-size: 14px;
-  border-top: 1px solid #c8bebe;
+  font-weight: 400;
+  /* border-top: 1px solid #c8bebe; */
 }
 
 .footer-bottom ul {
@@ -14920,7 +14921,7 @@ ol.commentlist li .star-rating {
   top: 0;
   opacity: 1;
   z-index: 999999999;
-  /* background-image: url(../images/logo.png); */
+  /* background-image: url(../images/logo/header.png); */
   background-image: url(../images/loading.svg);
   background-repeat: no-repeat;
   background-size: 80px;
@@ -17878,12 +17879,12 @@ color: #ffff;
 }
 
 .btn__secondary{
-  background-color: #fdb900;
+  background-color: #fdd104;
   color:#0e2b5c;
   font-size: 14px;
   font-weight: 700;
       text-align: center;
-    padding: 0 15px;
+      padding: 18px 27px;
     letter-spacing: 1px;
     border: none;
     border-radius: 3px;
@@ -17891,20 +17892,43 @@ color: #ffff;
 }
 
 .btn__secondary_in{
-  background-color: #fdb900;
+  background-color: #fdd104;
   color:#0e2b5c;
   font-size: 14px;
   font-weight: 700;
       text-align: center;
-    padding: 15px 20px ;
+      padding: 18px 27px;
     letter-spacing: 1px;
     border: none;
     border-radius: 3px;
     
 }
 
+.btn__secondary_pri{
+  background-color: #000;
+  color:#fff;
+  font-size: 14px;
+  font-weight: 700;
+      text-align: center;
+      padding: 18px 27px;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 3px;
+    width: fit-content;
+    
+}
+
 .home-about .icon-bx-md{
   width: auto !important;
+}
+.home-banner-ti{
+  font-size: 80px;
+    line-height: 1.1;
+    color: #fff;
+    font-weight: 700 !important;
+}
+.home-banner-li span{
+  font-weight: 400;
 }
 
 .main-ti{
@@ -17925,7 +17949,7 @@ color: #ffff;
   color: black;
 }
 .upper-cap{
-  color: #fdb900 !important;
+  color: #fdd104 !important;
   font-size: 15px !important;
   font-weight: 700;
 }
@@ -17935,7 +17959,7 @@ color: #ffff;
   font-weight: 700;
 }
 .icon-new{
-  color:#fdb900 ;
+  color:#fdd104 ;
 }
 
 .a-new{
@@ -17945,15 +17969,62 @@ color: #ffff;
 }
 
 .icon-div{
-background-color: #fdb900;
+background-color: #fdd104;
 border-radius: 50%;
 padding: 0 4px;
  margin-right: 10px;
 }
+
+.icon-div-pri{
+background-color: #fff;
+border-radius: 50%;
+padding: 0 3px;
+ margin-right: 10px;
+}
+
+.icon-div-pri .icon-sm-new{
+  width: 14px;
+}
+
 .icon-sm-new{
    
         width: 16px;
  
+}
+
+.home-about-img{
+  padding-right: 70px;
+  position: relative;
+}
+
+.home-about-cont {
+    max-width: 270px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    border-radius: 3px;
+    padding: 30px 40px 50px;
+    border: 20px solid #fff;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background-color: #fdd104;
+}
+
+.home-about__subtitle {
+       font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #000;
+    margin-top: 20px;
+}
+.home-about__title{
+font-size: 22px;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    color: #000;
+    margin-top: 30px;
+    font-weight: 700 ;
 }
 
 .home-blog .dlab-box{
@@ -17996,11 +18067,11 @@ padding: 0 4px;
 .footer25 .footer-heading {
   font-weight: 700;
   font-size: 1.25rem;
-  color: #fff;
+  color: #000;
 }
 
 .footer25 .footer-text {
-  font-size: 0.95rem;
+  font-size: 15px !important;
 }
 
 .footer25 .footer-button {
@@ -18019,14 +18090,14 @@ padding: 0 4px;
 }
 
 .footer25 .footer-info {
-  font-size: 0.9rem;
+  font-size: 15px !important;
   line-height: 1.5;
   color: #fff;
 }
 
 .footer25 .footer-links li {
-  font-size: 0.9rem;
-  line-height: 1.6;
+  font-size: 15px !important;
+  line-height: 2;
   cursor: pointer;
   color:"#fff";
   font-weight: 400;
@@ -18035,7 +18106,7 @@ padding: 0 4px;
 
 .footer25 .footer-phone {
   font-weight: bold;
-  color: #ffd700;
+  color: #fff;
   font-size: 1rem;
 }
 
@@ -18057,6 +18128,127 @@ padding: 0 4px;
     width: 100%;
   }
 }
+
+.build-section {
+  background-color: #fbd300; /* Yellow */
+ 
+}
+
+.build-content-sec{
+  display: flex;
+    padding: 30px 120px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.build-text-area {
+  background-color: #fbd300;
+}
+
+.build-title {
+  font-size: 2rem;
+  line-height: 1.4;
+  color: #000;
+}
+
+.build-desc, .build-subdesc {
+  font-size: 1rem;
+  color: #222;
+}
+
+.build-box {
+  background: #fff;
+  border-radius: 3px;
+  height: 100%;
+}
+
+.build-box h5{
+  color: #000;
+  font-weight: 700 !important;
+}
+
+.build-box img {
+  width: 65px;
+  height: 60px;
+}
+
+.build-btn {
+  font-weight: 600;
+  padding: 0.6rem 1.5rem;
+  border-radius: 5px;
+}
+
+.build-image-area img {
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 1440px) {
+.build-content-sec{
+  display: flex;
+    padding: 30px 60px;
+    flex-direction: column;
+    justify-content: center;
+}
+}
+
+
+
+/* Responsive Adjustments */
+@media (max-width: 767px) {
+  .build-title {
+    font-size: 1.5rem;
+  }
+
+  .build-box p {
+    font-size: 0.9rem;
+  }
+
+  .build-btn {
+    font-size: 0.9rem;
+  }
+}
+
+
+/* -------contact-form-start---------- */
+.contact-card .contact-left {
+  background: url('/images/about/pic7.jpg') no-repeat center center;
+  background-size: cover;
+  min-height: 400px;
+  position: relative;
+  padding: 30px;
+}
+
+.contact-overlay {
+  background: rgba(0, 0, 0, 0.65);
+  width: 100%;
+}
+
+.signature {
+  font-family: 'Brush Script MT', cursive;
+  color: #f4c000;
+  font-size: 1.2rem;
+}
+
+.submit-btn {
+  background-color: #f4b400;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+}
+
+.submit-btn:hover {
+  background-color: #d99e00;
+}
+
+/* Responsive */
+@media (max-width: 767px) {
+  .contact-card .contact-left {
+    min-height: 300px;
+  }
+}
+
+/* -------contact-form-end---------- */
 
 
 

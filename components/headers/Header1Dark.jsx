@@ -40,7 +40,7 @@ export default function Header1Dark() {
             {/* website logo */}
             <div className="logo-header mostion logo-white">
               <Link href={`/`}>
-                <img alt="" width="258" height="75" src="/images/logo.png" />
+                <img alt="" width="258" height="75" src="/images/logo/header.png" />
               </Link>
             </div>
             {/* nav toggle button */}
@@ -79,7 +79,7 @@ export default function Header1Dark() {
             >
               <div className="logo-header d-md-block d-lg-none">
                 <Link href={`/`}>
-                  <img alt="" width="258" height="75" src="/images/logo.png" />
+                  <img alt="" width="258" height="75" src="/images/logo/header.png" />
                 </Link>
               </div>
               <ul className="nav navbar-nav">

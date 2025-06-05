@@ -116,7 +116,7 @@ export default function Footer2(props) {
                   <Link href={`/`}>
                     <img
                       alt=""
-                      src="/images/logo.png"
+                      src="/images/logo/header.png"
                       width="258"
                       height="75"
                     />
