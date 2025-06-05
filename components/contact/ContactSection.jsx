@@ -83,13 +83,13 @@ const ContactSection = () => {
        
         
       <div className="row no-gutters  rounded overflow-hidden justify-content-center">
-        <div className="col-11 shadow-lg bg-white p-5 rounded">
+        <div className="col-11 shadow-lg bg-white p-sm-4 p-md-4 p-xl-5  p-3rounded">
           
           <div className="container-fluid">
-            <div className="row">
+            <div className="row  row-gap-3">
               {/* Left Side - Image with Overlay Text */}
         <div className="col-md-5 p-0 bg-white">
-          <div className="contact-left"></div>
+          <div className="contact-left "></div>
           {/* <div className="contact-overlay text-white p-4">
             <h5 className="fw-bold mb-3">Leading Way In Building & Civil Construction!</h5>
             <p className="mb-3">
@@ -101,7 +101,7 @@ const ContactSection = () => {
         </div>
 
         {/* Right Side - Form */}
-        <div className="col-md-7 bg-white ps-5">
+        <div className="col-md-7 bg-white ps-2 ps-0  ps-sm-3 ps-md-4 ps-lg-5">
           <h5 className="main-sub-ti ">Inquiry Form</h5>
           <p className=" mb-4">
             Please fill out the form below and our team will get back to you shortly.

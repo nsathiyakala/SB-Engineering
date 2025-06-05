@@ -8871,7 +8871,7 @@ button.scroltop {
   object-fit: cover;
 }
 
-.dz-industry2-zone .style-1 .swiper-pagination-bullet {
+.dz-industry2-zone .style-1 .swiper-pagination-bullet ,.fw-swiper .swiper-pagination-bullet{
   background: white;
   opacity: 1;
   transition: 0.5s;
@@ -8882,10 +8882,11 @@ button.scroltop {
   margin: 0px 4px;
 }
 
-.dz-industry2-zone .style-1 .swiper-pagination-bullet-active {
+.dz-industry2-zone .style-1 .swiper-pagination-bullet-active  ,.fw-swiper .swiper-pagination-bullet-active {
   /* background-color: var(--color-primary); */
   width: 25px;
   border-radius: 10px;
+  background: #fdd61c;
   display: inline-block;
 }
 

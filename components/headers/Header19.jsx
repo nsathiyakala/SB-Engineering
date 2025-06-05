@@ -49,7 +49,7 @@ export default function Header19() {
                   Sign In
                 </button>
               </div> */}
-              <div className="extra-cell d-flex align-items-center justify-content-center gap-5 gap-xl-3 d-none d-lg-flex">
+              <div className="extra-cell d-flex align-items-center justify-content-center gap-2  gap-md-3  gap-lg-4 gap-xl-3 d-none d-lg-flex">
                 <div className="flex items-center space-x-1">
                 <Phone className="w-4 h-4 text-yellow" />
                 <span className="ps-2">

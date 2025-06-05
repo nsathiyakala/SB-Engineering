@@ -18,7 +18,7 @@ export default function page() {
 
             <ContactSection/>
             <div className="container" style={{marginBottom:"-130px"}}>
-               <div className="offset-lg-4 col-sm-12 col-md-12 col-lg-7 d-flex flex-wrap justify-content-between">
+               <div className="c-foot offset-lg-4 col-sm-12 col-md-12 col-lg-7 d-flex flex-wrap justify-content-between">
               <div className="footer-contact__item d-flex align-items-center">
                 <div className="footer-contact__icon">
                   <LucidePhone style={{width:"18px"}}/>

@@ -69,7 +69,7 @@ export default function HomeAbout() {
                                 </div>
                               </div>
                             </div>
-                            <div className="col-lg-6 col-md-12 col-sm-12 m-b30">
+                            <div className="col-lg-6 col-md-12 col-sm-12 m-b30 p-0">
                               <div className="icon-bx-wraper left d-flex align-items-center">
                                 <div className="icon-bx-md me-3 ">
                                   <a href="#" className="icon-cell">

@@ -23,7 +23,7 @@ export default function ProjectsItems() {
                 </div>
         
         <div className="row">
-          <div className="col-lg-12 col-md-12 position-relative">
+          <div className="fw-swiper  fw2 col-lg-12 col-md-12 position-relative">
             <Swiper
               slidesPerView={4}
               spaceBetween={10}
