@@ -7,6 +7,8 @@ import HomeClients from "@/components/Homepage/HomeClients";
 import HomeProjects from "@/components/Homepage/HomeProjects";
 import Service from "@/components/homes/home-2/Service";
 import Hero from "@/components/homes/home-20/Hero";
+import AboutBanner from "@/components/Sb-about/AboutBanner";
+import AboutSec from "@/components/Sb-about/AboutSec";
 import React from "react";
 
 export const metadata = {
@@ -19,15 +21,10 @@ export default function page() {
       <div className="page-wraper  ">
         <Header19 />
         <div className="page-content bg-white">
-          <Hero />
+         
+         <AboutBanner/>
 
-          <HomeAbout />
-
-          <HomeBlog/>
-
-          <HomeProjects/>
-
-          <HomeClients/>
+        <AboutSec/>
 
           <div className="dlab-divider bg-gray-dark tb10 mt-5" />
 

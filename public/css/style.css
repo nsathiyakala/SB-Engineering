@@ -18339,6 +18339,9 @@ font-size: 22px;
   position: relative;
 }
 
+/* -------contact-form-end---------- */
+
+
 .projectBanner-wrapper {
   width: 100%;
   overflow: hidden;
@@ -18426,12 +18429,64 @@ font-size: 22px;
 }
 
 
+.construction-section .section-subtitle {
+  font-size: 0.9rem;
+}
+
+.construction-section .section-title {
+  font-size: 2rem;
+  color: #002244;
+}
+
+.construction-section .stats-caption {
+  font-size: 0.95rem;
+  color: #3c3c3c;
+}
+
+.construction-list li {
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #333;
+}
+
+.construction-btn {
+  font-weight: 600;
+  background-color: #002244;
+  border: none;
+  padding: 0.6rem 1.5rem;
+}
+
+.join-team-box {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  width: 180px;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 767px) {
+  .construction-section .section-title {
+    font-size: 1.5rem;
+  }
+
+  .join-team-box {
+    position: static;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .construction-btn {
+    width: 100%;
+  }
+}
 
 
 
 
 
-/* -------contact-form-end---------- */
+
+
 
 
 
