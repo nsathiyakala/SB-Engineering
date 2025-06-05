@@ -18339,6 +18339,93 @@ font-size: 22px;
   position: relative;
 }
 
+.projectBanner-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.projectBanner-parallax {
+  background-image: url('/images/home-banner/banner.png'); /* Replace with your image path */
+  height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+
+.projectBanner-title {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.projectBanner-wrapper nav{
+  width: 100%;
+  display: flex;
+    justify-content: center;
+}
+.projectBanner-wrapper ol{
+  width: fit-content;
+}
+.projectBanner-breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+  color: white;
+   font-weight: 400;
+}
+
+.projectBanner-breadcrumb .breadcrumb-item a {
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.projectBanner-breadcrumb .breadcrumb-item.active{
+  font-weight: 400;
+}
+
+.projectBanner-breadcrumb {
+  background: transparent;
+  padding: 0;
+  margin: 0;
+}
+
+.project-port .project-bx .dlab-info{
+  background-color: transparent !important;
+}
+
+.project-port .project-bx .dlab-info h5 a{
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+}
+
+.project-port .project-bx .dlab-info p{
+  font-weight: 300;
+  font-size: 14px;
+  color: #fff;
+}
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .projectBanner-parallax {
+    height: 300px;
+    background-attachment: scroll;
+  }
+
+  .projectBanner-title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .projectBanner-title {
+    font-size: 1.5rem;
+  }
+}
+
+
 
 
 

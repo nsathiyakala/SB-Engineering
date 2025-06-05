@@ -1,44 +1,35 @@
 export const projects = [
   {
     id: 1,
-    imgSrc: "/images/our-work/steelplant/pic10.jpg",
-    title: "Manufacturing",
+    imgSrc: "/images/about/pic1.jpg",
+    title: "Lorem ipsum dolorsit",
+    description:"sit amet consectetur "
   },
   {
     id: 2,
-    imgSrc: "/images/our-work/steelplant/pic9.jpg",
-    title: "Iron Making",
+    imgSrc: "/images/about/pic1.jpg",
+     title: "Lorem ipsum dolorsit",
+    description:"sit amet consectetur "
   },
   {
     id: 3,
-    imgSrc: "/images/our-work/steelplant/pic8.jpg",
-    title: "Steel Pipes",
+    imgSrc: "/images/about/pic1.jpg",
+     title: "Lorem ipsum dolorsit",
+    description:"sit amet consectetur "
   },
   {
     id: 4,
-    imgSrc: "/images/our-work/steelplant/pic7.jpg",
-    title: "Structural Steel",
+    imgSrc: "/images/about/pic1.jpg",
+     title: "Lorem ipsum dolorsit",
+    description:"sit amet consectetur "
   },
   {
     id: 5,
-    imgSrc: "/images/our-work/steelplant/pic10.jpg",
-    title: "Manufacturing",
+    imgSrc: "/images/about/pic1.jpg",
+     title: "Lorem ipsum dolorsit",
+    description:"sit amet consectetur ",
   },
-  {
-    id: 6,
-    imgSrc: "/images/our-work/steelplant/pic9.jpg",
-    title: "Iron Making",
-  },
-  {
-    id: 7,
-    imgSrc: "/images/our-work/steelplant/pic8.jpg",
-    title: "Steel Pipes",
-  },
-  {
-    id: 8,
-    imgSrc: "/images/our-work/steelplant/pic7.jpg",
-    title: "Structural Steel",
-  },
+  
 ];
 
 export const portfolioItems = [
