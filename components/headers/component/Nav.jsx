@@ -17,6 +17,7 @@ import {
   HomeLink,
   pagesItems,
   PortfolioLink,
+  ProjectLink,
   ProjectPortfolioLink,
   ServicesLink,
   shopLinks,
@@ -168,7 +169,7 @@ export default function Nav() {
         </ul>
       </li>
 
-       <li
+       {/* <li
         className={` ${isMenuActive(ProjectPortfolioLink) ? "active" : ""} ${
           menuOpen1 == "projectportfolio" ? "open" : ""
         }  `}
@@ -193,6 +194,15 @@ export default function Nav() {
             </li>
           ))}
         </ul>
+      </li> */}
+
+             <li className={isMenuActive(ProjectLink) ? "active" : ""}>
+        <Link
+          href={ProjectLink.href}
+          className={isMenuActive(ProjectLink) ? "menuActive" : ""}
+        >
+          {ProjectLink.label}
+        </Link>
       </li>
 
        <li className={isMenuActive(ContactLink) ? "active" : ""}>

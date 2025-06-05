@@ -384,8 +384,15 @@ export const ProjectPortfolioLink = [
 
 export const ContactLink = {
   href: "/contact",
-  label: "Contac Us",
+  label: "Contact Us",
 };
+
+
+export const ProjectLink = {
+  href: "/project-portfolio",
+  label: "Project Portfolio",
+};
+
 
 export const contactsLinks = [
   { href: "/contact-1", label: "Contact us 1" },
