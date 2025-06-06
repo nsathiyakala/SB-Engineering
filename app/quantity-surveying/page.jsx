@@ -13,8 +13,8 @@ export const metadata = {
 export default function page() {
 
     const banner ={
-        title:"Architectural Design",
-        link:"architectural-design"
+        title:"Quantity Surveying",
+        link:"quantity-surveying"
     }
 
     const innovativesolutions ={

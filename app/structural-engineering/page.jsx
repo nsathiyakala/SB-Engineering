@@ -13,7 +13,7 @@ export const metadata = {
 export default function page() {
 
     const banner ={
-        title:"Architectural Design",
+        title:"Structural Engineering",
         link:"architectural-design"
     }
 

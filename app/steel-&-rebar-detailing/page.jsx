@@ -7,14 +7,14 @@ import ServiceExtpertise from "@/components/SBService/ServiceExtpertise";
 import AddedValue from "@/components/SBService/AddedValue";
 
 export const metadata = {
-  title: "About",
+  title: "Steel & Rebar Detailing (Tekla)",
   description: ""
 };
 export default function page() {
 
     const banner ={
-        title:"Architectural Design",
-        link:"architectural-design"
+        title:"Steel & Rebar Detailing (Tekla)",
+        link:"steel-&-rebar-detailing"
     }
 
     const innovativesolutions ={
