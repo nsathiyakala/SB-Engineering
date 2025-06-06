@@ -6,7 +6,7 @@ import React from "react";
 
 export const metadata = {
   title: "Blog Grid 4 || Industry - Factory & Industrial React Nextjs Template",
-  description: "Industry - Factory & Industrial React Nextjs Template",
+  description: ""
 };
 export default function page() {
   return (

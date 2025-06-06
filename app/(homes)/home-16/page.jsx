@@ -8,7 +8,7 @@ import Tickets from "@/components/homes/home-16/Tickets";
 
 export const metadata = {
   title: "Home 16 || Industry - Factory & Industrial React Nextjs Template",
-  description: "Industry - Factory & Industrial React Nextjs Template",
+  description: ""
 };
 export default function page() {
   return (

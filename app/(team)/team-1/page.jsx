@@ -7,7 +7,7 @@ import React from "react";
 
 export const metadata = {
   title: "Team 1 || Industry - Factory & Industrial React Nextjs Template",
-  description: "Industry - Factory & Industrial React Nextjs Template",
+  description: ""
 };
 export default function page() {
   return (

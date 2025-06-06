@@ -10,7 +10,7 @@ import { allBlogs } from "@/data/blogs";
 export const metadata = {
   title:
     "Blog Single Left Sidebar || Industry - Factory & Industrial React Nextjs Template",
-  description: "Industry - Factory & Industrial React Nextjs Template",
+  description: ""
 };
 export default function page({ params }) {
   const slug = params.slug.split("%20").join(" ");

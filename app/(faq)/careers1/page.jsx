@@ -11,7 +11,7 @@ import Cta from "@/components/homes/home-13/Cta";
 
 export const metadata = {
   title: "Career || zingstudio",
-  description: "Industry - Factory & Industrial React Nextjs Template",
+  description: ""
 };
 export default function page() {
   return (

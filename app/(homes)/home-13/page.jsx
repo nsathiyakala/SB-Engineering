@@ -12,7 +12,7 @@ import Team from "@/components/homes/home-13/Team";
 
 export const metadata = {
   title: "Home 13 || Industry - Factory & Industrial React Nextjs Template",
-  description: "Industry - Factory & Industrial React Nextjs Template",
+  description: ""
 };
 export default function page() {
   return (

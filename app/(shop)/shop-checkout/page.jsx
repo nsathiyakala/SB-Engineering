@@ -10,7 +10,7 @@ import Header22 from "@/components/headers/Header22";
 export const metadata = {
   title:
     "Shop Checkout || Industry - Factory & Industrial React Nextjs Template",
-  description: "Industry - Factory & Industrial React Nextjs Template",
+  description: ""
 };
 export default function page() {
   return (

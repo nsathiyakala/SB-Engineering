@@ -7,7 +7,7 @@ import Image from "next/image";
 export const metadata = {
   title:
     "Header Dark Style 1 || Industry - Factory & Industrial React Nextjs Template",
-  description: "Industry - Factory & Industrial React Nextjs Template",
+  description: ""
 };
 export default function page() {
   return (

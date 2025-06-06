@@ -18527,11 +18527,17 @@ font-size: 22px;
 
 .join-team-box {
   position: absolute;
-  bottom: 20px;
-  left: 20px;
+
+  left: 60px;
+  bottom: -30px;
   width: 180px;
-  border-radius: 6px;
+  border-radius: 3px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.construction-section .icon{
+  padding: 2px 7px !important;
+  border-radius: 50px;
 }
 
 @media (max-width: 767px) {
@@ -18548,6 +18554,14 @@ font-size: 22px;
   .construction-btn {
     width: 100%;
   }
+}
+
+.expertise-p{
+  margin-bottom: 5px !important;
+}
+
+.expertise-sec .latest-project-info{
+      padding: 60px !important;
 }
 
 

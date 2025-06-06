@@ -8,7 +8,7 @@ import { allProjects } from "@/data/projects";
 export const metadata = {
   title:
     "Portfolio Details || Industry - Factory & Industrial React Nextjs Template",
-  description: "Industry - Factory & Industrial React Nextjs Template",
+  description: ""
 };
 export default function page({ params }) {
 console.log('✌️params --->', params);

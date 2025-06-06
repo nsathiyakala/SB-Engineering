@@ -13,7 +13,7 @@ import Footer13 from "@/components/footers/Footer13";
 
 export const metadata = {
   title: "SMM || zingstudio",
-  description: "Industry - Factory & Industrial React Nextjs Template",
+  description: ""
 };
 export default function page() {
   return (

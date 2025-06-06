@@ -22,7 +22,7 @@ import Header14 from "@/components/headers/Header14";
 
 export const metadata = {
   title: "Home || zingstudio",
-  description: "Industry - Factory & Industrial React Nextjs Template",
+  description: ""
 };
 export default function page() {
   return (

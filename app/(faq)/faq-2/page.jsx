@@ -6,7 +6,7 @@ import React from "react";
 import Link from "next/link";
 export const metadata = {
   title: "Faq 2 || Industry - Factory & Industrial React Nextjs Template",
-  description: "Industry - Factory & Industrial React Nextjs Template",
+  description: ""
 };
 export default function page() {
   return (

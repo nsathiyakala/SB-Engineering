@@ -6,7 +6,7 @@ import Link from "next/link";
 export const metadata = {
   title:
     "Blog Grid 3 Sidebar Left || Industry - Factory & Industrial React Nextjs Template",
-  description: "Industry - Factory & Industrial React Nextjs Template",
+  description: ""
 };
 export default function page() {
   return (

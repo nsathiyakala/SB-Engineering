@@ -1017,6 +1017,7 @@ h6 {
 .service-box.style3 .icon-bx-wraper {
   padding: 50px 30px;
   background: #fff;
+  /* background: #fdd104 !important; */
   margin-bottom: 30px;
   box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.05);
   z-index: 1;
@@ -1037,6 +1038,9 @@ h6 {
   -webkit-transition: all 0.5s;
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
+}
+.whySbEng .service-box.style3 .icon-bx-wraper:before {
+  content: "" !important;
 }
 
 .service-box.style3 .icon-lg i {
@@ -1066,9 +1070,10 @@ h6 {
   content: "";
   height: 100%;
   width: 0;
-  background-color: var(--color-primary);
+  background-color: #fdd104;
   position: absolute;
   bottom: 0;
+  color: #000;
   right: 0;
   z-index: -1;
   transform-origin: left;
